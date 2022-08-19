@@ -1,11 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400&display=swap');
+
+
+
 body{
-	text-align: center;
 	width: auto;
 }
+h1{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 45px;
+	font-family: 'Cormorant Garamond', serif;
+
+	
+}
+h4{
+	font-family: 'Tai Heritage Pro', serif;
+	font-weight: bolder;
+	
+}
+p{
+	font-family: 'Jost', sans-serif;
+	font-size: 18px;
+}
+
+.container{
+	padding-top: 20px;
+	padding-bottom: 45px;
+}
+.col-sm-4{
+	text-align: center;
+	
+}
+.col-sm p{
+	text-align: center;
+
+}
+
 iframe{
 	width: 100%;
-} 
+	padding: 15px;
+}
 
-.essay{
+
+.essay h4{
+	text-align: center;
+	padding: 2px;
+	padding-top: 50px;
+
+}
+.essay p{
 	text-align: left;
+	padding: 25px;
+
+}
+
+img{
+	width: 100%;
+	border: solid 2px;
+
+}
+figcaption{
+	text-align: right;
+	padding-right: 15px
+}
+.img1, .img2, .img3{
+	padding: 25px;
+	text-align: center;
+
+
+}
+
+#summary{
+	padding: 20px;
+	text-align: center;
+}
+.row-cols-2{
+	text-align: center;
+}
+#footer{
+	text-align: center;
+	padding: 5px;
 }
